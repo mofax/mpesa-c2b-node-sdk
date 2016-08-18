@@ -6,6 +6,9 @@ Provides and SDK wrapper over the mpesa online checkout api
 npm install --save mpesa-c2b
 ```
 
+## Node.js Requirements
+We've only tested with Node `v6.2` and above
+
 ## Usage
 import the library, run setup, and just call the methods
 
