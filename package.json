@@ -1,0 +1,27 @@
+{
+  "name": "mpesa-c2b",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofax/mpesa-c2b-node-sdk.git"
+  },
+  "keywords": [
+    "mpesa"
+  ],
+  "author": "Alloys Mila <mila.alloys@gmail.com",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/mofax/mpesa-c2b-node-sdk/issues"
+  },
+  "homepage": "https://github.com/mofax/mpesa-c2b-node-sdk#readme",
+  "dependencies": {
+    "jxon": "2.0.0-beta.3",
+    "moment": "2.14.1",
+    "request": "2.74.0"
+  }
+}
