@@ -20,7 +20,7 @@ module.exports = (function () {
                 throw new Error('call setUp first to provied merchantID and passkey');
             }
 
-            let header = func.getMpesaCheckoutHeader(conf.merchantID, conf.passkey, new Date());
+            let header = func.getMpesaCheckoutHeader(conf.merchantId, conf.passkey, new Date());
             let headerString = func.compileHeader(header);
 
             // the header generator also generate the timestamp
