@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mofax/mpesa-c2b-node-sdk#readme",
   "dependencies": {
     "jxon": "2.0.0-beta.3",
-    "moment": "2.14.1",
+    "moment": "2.28.0",
     "request": "2.74.0"
   }
 }
